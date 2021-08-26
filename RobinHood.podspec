@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.test_spec do |ts|
-    ts.source_files = 'Tests/**/*.swift'
+    ts.source_files = 'Tests/**/**/*.swift'
     ts.dependency 'FireMock'
-    ts.resources = ['Tests/**/*.xcdatamodeld', 'Tests/**/*.json']
+    ts.resources = ['Tests/**/**/*.xcdatamodeld', 'Tests/**/**/*.json']
   end
   
 end

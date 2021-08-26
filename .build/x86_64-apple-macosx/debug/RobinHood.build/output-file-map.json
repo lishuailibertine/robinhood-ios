@@ -1,0 +1,293 @@
+{
+  "": {
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/master.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/CoreData/CoreDataCommon.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataCommon.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataCommon.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataCommon~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataCommon.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/CoreData/CoreDataService.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataService.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataService.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataService~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataService.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/CoreData/CoreDataServiceConfiguration.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataServiceConfiguration.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataServiceConfiguration.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataServiceConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/CoreData/CoreDataServiceConfiguration.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Common/DataProviderPrimitives.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Common/DataProviderPrimitives.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Common/DataProviderPrimitives.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Common/DataProviderPrimitives~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Common/DataProviderPrimitives.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/AnyDataProvider.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProvider.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProvider.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProvider.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/AnyDataProviderSource.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProviderSource.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProviderSource.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProviderSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/AnyDataProviderSource.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/DataProvider+Protocol.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Protocol.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Protocol.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Protocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Protocol.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/DataProvider+Trigger.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Trigger.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Trigger.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Trigger~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider+Trigger.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/DataProvider.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProvider.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/DataProviderError.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderError.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderError.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderError~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderError.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/DataProviderObserver.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderObserver.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderObserver.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderObserver~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderObserver.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/DataProvider/DataProviderProtocols.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderProtocols.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderProtocols.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/DataProvider/DataProviderProtocols.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Difference/ListDifferenceCalculator.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/ListDifferenceCalculator.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/ListDifferenceCalculator.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/ListDifferenceCalculator~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/ListDifferenceCalculator.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Difference/SectionedListDifference.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/SectionedListDifference.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/SectionedListDifference.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/SectionedListDifference~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Difference/SectionedListDifference.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/AnyDataProviderRepository.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepository.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepository.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepository.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/AnyDataProviderRepositoryObservable.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepositoryObservable.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepositoryObservable.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepositoryObservable~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/AnyDataProviderRepositoryObservable.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/CoreData/CoreDataContextObservable.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataContextObservable.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataContextObservable.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataContextObservable~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataContextObservable.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/CoreData/CoreDataMapper.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataMapper.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataMapper.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataMapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataMapper.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Async.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Async.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Async.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Async~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Async.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Protocol.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Protocol.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Protocol.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Protocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository+Protocol.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/CoreData/CoreDataRepository.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/CoreData/CoreDataRepository.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/RepositoryObserver.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryObserver.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryObserver.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryObserver~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryObserver.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Repository/RepositoryProtocols.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryProtocols.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryProtocols.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Repository/RepositoryProtocols.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/SingleValueProvider/AnySingleValueProviderSource.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/AnySingleValueProviderSource.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/AnySingleValueProviderSource.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/AnySingleValueProviderSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/AnySingleValueProviderSource.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Protocol.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Protocol.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Protocol.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Protocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Protocol.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Trigger.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Trigger.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Trigger.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Trigger~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider+Trigger.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/SingleValueProvider/SingleValueProvider.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProvider.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/SingleValueProvider/SingleValueProviderProtocols.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProviderProtocols.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProviderProtocols.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProviderProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/SingleValueProvider/SingleValueProviderProtocols.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/StreamableProvider/AnyStreamableProviderSource.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/AnyStreamableProviderSource.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/AnyStreamableProviderSource.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/AnyStreamableProviderSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/AnyStreamableProviderSource.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/StreamableProvider/StreamableProvider.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProvider.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProvider.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProvider.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/StreamableProvider/StreamableProviderProtocols.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProviderProtocols.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProviderProtocols.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProviderProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/StreamableProvider/StreamableProviderProtocols.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/DataProvider/Triggers/DataProviderTrigger.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Triggers/DataProviderTrigger.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Triggers/DataProviderTrigger.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Triggers/DataProviderTrigger~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/DataProvider/Triggers/DataProviderTrigger.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Helpers/BaseOperationExtensions.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/BaseOperationExtensions.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/BaseOperationExtensions.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/BaseOperationExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/BaseOperationExtensions.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Helpers/DispatchQueueHelper.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/DispatchQueueHelper.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/DispatchQueueHelper.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/DispatchQueueHelper~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/DispatchQueueHelper.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Helpers/EndpointBuilder.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/EndpointBuilder.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/EndpointBuilder.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/EndpointBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Helpers/EndpointBuilder.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Base/BaseOperation.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/BaseOperation.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/BaseOperation.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/BaseOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/BaseOperation.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Base/ClosureOperation.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/ClosureOperation.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/ClosureOperation.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/ClosureOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Base/ClosureOperation.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/CancellableCall.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CancellableCall.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CancellableCall.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CancellableCall~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CancellableCall.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/CompoundOperationWrapper.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CompoundOperationWrapper.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CompoundOperationWrapper.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CompoundOperationWrapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/CompoundOperationWrapper.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkConstants.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkConstants.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkConstants.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkConstants~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkConstants.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkDataError.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkDataError.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkDataError.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkDataError~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkDataError.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkIndicatorManager.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkIndicatorManager.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkIndicatorManager.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkIndicatorManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkIndicatorManager.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkOperation.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperation.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperation.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperation.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkOperationHelper.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperationHelper.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperationHelper.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperationHelper~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkOperationHelper.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkRequestFactory.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestFactory.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestFactory.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestFactory.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkRequestModifier.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestModifier.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestModifier.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestModifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkRequestModifier.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/Network/NetworkResultFactory.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkResultFactory.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkResultFactory.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkResultFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/Network/NetworkResultFactory.swiftdeps"
+  },
+  "/Users/lishuai/Documents/GitHub/robinhood-ios/Sources/RobinHood/Classes/Operations/OperationManager.swift": {
+    "dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/OperationManager.d",
+    "object": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/OperationManager.swift.o",
+    "swiftmodule": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/OperationManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/Classes/Operations/OperationManager.swiftdeps"
+  }
+}

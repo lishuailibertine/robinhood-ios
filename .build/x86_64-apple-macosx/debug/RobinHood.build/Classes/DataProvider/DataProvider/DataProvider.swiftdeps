@@ -1,0 +1,578 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataProvider"
+provides-nominal:
+- "9RobinHood12DataProviderC"
+provides-member:
+- ["9RobinHood12DataProviderC", ""]
+- ["9RobinHood12DataProviderC", "dispatchUpdateRepository"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- !private "+"
+- !private "=="
+- ">"
+- "AnyDataProviderRepository"
+- "AnyDataProviderSource"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BaseOperation"
+- !private "BooleanLiteralType"
+- !private "ClosureOperation"
+- "DataProvider"
+- "DataProviderChange"
+- "DataProviderError"
+- "DataProviderEventTrigger"
+- "DataProviderObserver"
+- "DataProviderObserverOptions"
+- "DataProviderPendingObserver"
+- "DataProviderTriggerProtocol"
+- "DispatchQueue"
+- "Equatable"
+- "Error"
+- !private "FloatLiteralType"
+- "Identifiable"
+- !private "IntegerLiteralType"
+- "Operation"
+- "OperationQueue"
+- "String"
+- !private "StringLiteralType"
+- "T"
+- !private "UUID"
+- "Void"
+- !private "createDifferenceOperation"
+- !private "createSaveRepositoryOperation"
+- "dispatchInQueueWhenPossible"
+- !private "executionQueue"
+- !private "lastSyncOperation"
+- !private "observers"
+- !private "repository"
+- !private "repositoryUpdateOperation"
+- !private "source"
+- !private "syncQueue"
+- "||"
+depends-member:
+- !private ["9RobinHood25AnyDataProviderRepositoryC", ""]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "fetchAllOperation"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "saveOperation"]
+- !private ["9RobinHood21AnyDataProviderSourceC", ""]
+- !private ["9RobinHood21AnyDataProviderSourceC", "fetchOperation"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "reduce"]
+- ["9RobinHood13BaseOperationC", ""]
+- !private ["9RobinHood13BaseOperationC", "addDependency"]
+- !private ["9RobinHood13BaseOperationC", "completionBlock"]
+- !private ["9RobinHood13BaseOperationC", "result"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "forEach"]
+- !private ["SK", "reduce"]
+- !private ["s7CVarArgP", "addDependency"]
+- !private ["s7CVarArgP", "addOperations"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "completionBlock"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isFinished"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "result"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["9RobinHood15CancellableCallP", "allOperations"]
+- !private ["9RobinHood15CancellableCallP", "targetOperation"]
+- !private ["9RobinHood16ClosureOperationC", "addDependency"]
+- !private ["9RobinHood16ClosureOperationC", "init"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["9RobinHood24CompoundOperationWrapperC", "allOperations"]
+- !private ["9RobinHood24CompoundOperationWrapperC", "targetOperation"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addDependency"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperations"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "completionBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isFinished"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addDependency"]
+- !private ["s23CustomStringConvertibleP", "addOperations"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "completionBlock"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isFinished"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- ["9RobinHood12DataProviderC", "AnyDataProviderRepository"]
+- ["9RobinHood12DataProviderC", "AnyDataProviderSource"]
+- ["9RobinHood12DataProviderC", "BaseOperation"]
+- !private ["9RobinHood12DataProviderC", "ClosureOperation"]
+- ["9RobinHood12DataProviderC", "DataProviderChange"]
+- !private ["9RobinHood12DataProviderC", "DataProviderError"]
+- !private ["9RobinHood12DataProviderC", "DataProviderEventTrigger"]
+- ["9RobinHood12DataProviderC", "DataProviderObserver"]
+- ["9RobinHood12DataProviderC", "DataProviderObserverOptions"]
+- ["9RobinHood12DataProviderC", "DataProviderPendingObserver"]
+- ["9RobinHood12DataProviderC", "DataProviderTriggerProtocol"]
+- ["9RobinHood12DataProviderC", "DispatchQueue"]
+- ["9RobinHood12DataProviderC", "Error"]
+- ["9RobinHood12DataProviderC", "Model"]
+- ["9RobinHood12DataProviderC", "Operation"]
+- ["9RobinHood12DataProviderC", "OperationQueue"]
+- !private ["9RobinHood12DataProviderC", "String"]
+- !private ["9RobinHood12DataProviderC", "T"]
+- !private ["9RobinHood12DataProviderC", "UUID"]
+- ["9RobinHood12DataProviderC", "Void"]
+- ["9RobinHood12DataProviderC", ""]
+- !private ["9RobinHood12DataProviderC", "createDifferenceOperation"]
+- !private ["9RobinHood12DataProviderC", "createSaveRepositoryOperation"]
+- ["9RobinHood12DataProviderC", "deinit"]
+- !private ["9RobinHood12DataProviderC", "dispatchInQueueWhenPossible"]
+- ["9RobinHood12DataProviderC", "dispatchUpdateRepository"]
+- ["9RobinHood12DataProviderC", "executionQueue"]
+- !private ["9RobinHood12DataProviderC", "findChanges"]
+- ["9RobinHood12DataProviderC", "init"]
+- ["9RobinHood12DataProviderC", "lastSyncOperation"]
+- !private ["9RobinHood12DataProviderC", "notifyObservers"]
+- ["9RobinHood12DataProviderC", "observers"]
+- ["9RobinHood12DataProviderC", "pendingObservers"]
+- ["9RobinHood12DataProviderC", "repository"]
+- ["9RobinHood12DataProviderC", "repositoryUpdateOperation"]
+- ["9RobinHood12DataProviderC", "source"]
+- ["9RobinHood12DataProviderC", "syncQueue"]
+- !private ["9RobinHood12DataProviderC", "updateRepository"]
+- ["9RobinHood12DataProviderC", "updateTrigger"]
+- !private ["9RobinHood18DataProviderChangeO", "delete"]
+- !private ["9RobinHood18DataProviderChangeO", "insert"]
+- !private ["9RobinHood18DataProviderChangeO", "item"]
+- !private ["9RobinHood18DataProviderChangeO", "update"]
+- !private ["9RobinHood17DataProviderErrorO", ""]
+- !private ["9RobinHood17DataProviderErrorO", "dependencyCancelled"]
+- !private ["9RobinHood17DataProviderErrorO", "unexpectedRepositoryResult"]
+- !private ["9RobinHood17DataProviderErrorO", "unexpectedSourceResult"]
+- !private ["9RobinHood17DataProviderEventO", "initialization"]
+- ["9RobinHood24DataProviderEventTriggerV", ""]
+- !private ["9RobinHood24DataProviderEventTriggerV", "onAll"]
+- !private ["9RobinHood20DataProviderObserverV", "failureBlock"]
+- !private ["9RobinHood20DataProviderObserverV", "observer"]
+- !private ["9RobinHood20DataProviderObserverV", "options"]
+- !private ["9RobinHood20DataProviderObserverV", "queue"]
+- !private ["9RobinHood20DataProviderObserverV", "updateBlock"]
+- !private ["9RobinHood27DataProviderObserverOptionsV", "alwaysNotifyOnRefresh"]
+- !private ["9RobinHood20DataProviderProtocolP", "ClosureOperation"]
+- !private ["9RobinHood20DataProviderProtocolP", "DataProviderChange"]
+- !private ["9RobinHood20DataProviderProtocolP", "DataProviderError"]
+- !private ["9RobinHood20DataProviderProtocolP", "DataProviderEventTrigger"]
+- !private ["9RobinHood20DataProviderProtocolP", "DispatchQueue"]
+- !private ["9RobinHood20DataProviderProtocolP", "OperationQueue"]
+- !private ["9RobinHood20DataProviderProtocolP", "String"]
+- !private ["9RobinHood20DataProviderProtocolP", "T"]
+- !private ["9RobinHood20DataProviderProtocolP", "UUID"]
+- !private ["9RobinHood20DataProviderProtocolP", "createDifferenceOperation"]
+- !private ["9RobinHood20DataProviderProtocolP", "createSaveRepositoryOperation"]
+- !private ["9RobinHood20DataProviderProtocolP", "dispatchInQueueWhenPossible"]
+- !private ["9RobinHood20DataProviderProtocolP", "executionQueue"]
+- !private ["9RobinHood20DataProviderProtocolP", "findChanges"]
+- !private ["9RobinHood20DataProviderProtocolP", "lastSyncOperation"]
+- !private ["9RobinHood20DataProviderProtocolP", "notifyObservers"]
+- !private ["9RobinHood20DataProviderProtocolP", "observers"]
+- !private ["9RobinHood20DataProviderProtocolP", "repository"]
+- !private ["9RobinHood20DataProviderProtocolP", "repositoryUpdateOperation"]
+- !private ["9RobinHood20DataProviderProtocolP", "source"]
+- !private ["9RobinHood20DataProviderProtocolP", "syncQueue"]
+- !private ["9RobinHood20DataProviderProtocolP", "updateRepository"]
+- !private ["9RobinHood20DataProviderProtocolP", "updateTrigger"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "fetchAllOperation"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "saveOperation"]
+- !private ["9RobinHood26DataProviderSourceProtocolP", "fetchOperation"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "ClosureOperation"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "DataProviderChange"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "DataProviderError"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "DataProviderEventTrigger"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "DispatchQueue"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "OperationQueue"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "String"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "T"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "UUID"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "createDifferenceOperation"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "createSaveRepositoryOperation"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "dispatchInQueueWhenPossible"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "executionQueue"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "findChanges"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "lastSyncOperation"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "notifyObservers"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "observers"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "repository"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "repositoryUpdateOperation"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "source"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "syncQueue"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "updateRepository"]
+- !private ["9RobinHood27DataProviderTriggerDelegateP", "updateTrigger"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "delegate"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "onAll"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "receive"]
+- !private ["Se", "append"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "forEach"]
+- !private ["Se", "identifier"]
+- !private ["Se", "init"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uuidString"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["8Dispatch0A3QoSV", "utility"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "forEach"]
+- !private ["SE", "identifier"]
+- !private ["SE", "init"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", ""]
+- !private ["SQ", "addDependency"]
+- !private ["SQ", "addOperations"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "completionBlock"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dependencyCancelled"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isFinished"]
+- !private ["SQ", "onAll"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "result"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["SQ", "unexpectedRepositoryResult"]
+- !private ["SQ", "unexpectedSourceResult"]
+- !private ["SQ", "utility"]
+- !private ["SQ", "uuidString"]
+- !private ["s5ErrorP", "dependencyCancelled"]
+- !private ["s5ErrorP", "unexpectedRepositoryResult"]
+- !private ["s5ErrorP", "unexpectedSourceResult"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "onAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "identifier"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "addDependency"]
+- !private ["SH", "addOperations"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "completionBlock"]
+- !private ["SH", "count"]
+- !private ["SH", "dependencyCancelled"]
+- !private ["SH", "failure"]
+- !private ["SH", "forEach"]
+- !private ["SH", "identifier"]
+- !private ["SH", "init"]
+- !private ["SH", "isFinished"]
+- !private ["SH", "reduce"]
+- !private ["SH", "result"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "unexpectedRepositoryResult"]
+- !private ["SH", "unexpectedSourceResult"]
+- !private ["SH", "uuidString"]
+- !private ["9RobinHood12IdentifiableP", "identifier"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- !private ["SM", "forEach"]
+- !private ["SM", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addDependency"]
+- !private ["So8NSObjectC", "addOperations"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "completionBlock"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isFinished"]
+- !private ["So8NSObjectC", "result"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addDependency"]
+- !private ["So8NSObjectP", "addOperations"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "completionBlock"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isFinished"]
+- !private ["So8NSObjectP", "result"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- ["So11NSOperationC", ""]
+- !private ["So11NSOperationC", "addDependency"]
+- !private ["So11NSOperationC", "completionBlock"]
+- !private ["So11NSOperationC", "isFinished"]
+- !private ["So11NSOperationC", "result"]
+- !private ["So16NSOperationQueueC", "addOperations"]
+- !private ["So16NSOperationQueueC", "init"]
+- !private ["s9OptionSetP", "onAll"]
+- !private ["Sq", "identifier"]
+- !private ["So19NSProgressReportingP", "addOperations"]
+- !private ["So19NSProgressReportingP", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "reduce"]
+- !private ["SY", ""]
+- !private ["SY", "onAll"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["7Combine9SchedulerP", "addOperations"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "onAll"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addDependency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completionBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFinished"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "result"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addDependency"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addOperations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "completionBlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFinished"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "result"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "identifier"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+depends-nominal:
+- !private "9RobinHood25AnyDataProviderRepositoryC"
+- !private "9RobinHood21AnyDataProviderSourceC"
+- !private "Sa"
+- "9RobinHood13BaseOperationC"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "9RobinHood15CancellableCallP"
+- !private "9RobinHood16ClosureOperationC"
+- !private "Sl"
+- !private "9RobinHood24CompoundOperationWrapperC"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "9RobinHood12DataProviderC"
+- !private "9RobinHood18DataProviderChangeO"
+- !private "9RobinHood17DataProviderErrorO"
+- !private "9RobinHood17DataProviderEventO"
+- "9RobinHood24DataProviderEventTriggerV"
+- !private "9RobinHood20DataProviderObserverV"
+- !private "9RobinHood27DataProviderObserverOptionsV"
+- !private "9RobinHood20DataProviderProtocolP"
+- !private "9RobinHood30DataProviderRepositoryProtocolP"
+- !private "9RobinHood26DataProviderSourceProtocolP"
+- !private "9RobinHood27DataProviderTriggerDelegateP"
+- !private "9RobinHood27DataProviderTriggerProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "So18OS_dispatch_objectC"
+- !private "8Dispatch0A3QoSV"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- !private "9RobinHood12IdentifiableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So9OS_objectC"
+- "So11NSOperationC"
+- !private "So16NSOperationQueueC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation4UUIDV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fcadd5e63514513a66a223f05e79a927"

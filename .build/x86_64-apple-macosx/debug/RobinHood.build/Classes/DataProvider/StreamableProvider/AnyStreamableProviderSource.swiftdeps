@@ -1,0 +1,66 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyStreamableSourceFetchBlock"
+- "AnyStreamableSource"
+provides-nominal:
+- "9RobinHood19AnyStreamableSourceC"
+provides-member:
+- ["9RobinHood19AnyStreamableSourceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyStreamableSource"
+- "AnyStreamableSourceFetchBlock"
+- "AssignmentPrecedence"
+- "DispatchQueue"
+- "Error"
+- "Identifiable"
+- "Int"
+- "Model"
+- "Result"
+- "StreamableSourceProtocol"
+- "T"
+- "Void"
+- !private "_fetchHistory"
+- !private "_refresh"
+depends-member:
+- ["9RobinHood19AnyStreamableSourceC", "AnyStreamableSourceFetchBlock"]
+- ["9RobinHood19AnyStreamableSourceC", "DispatchQueue"]
+- ["9RobinHood19AnyStreamableSourceC", "Error"]
+- ["9RobinHood19AnyStreamableSourceC", "Int"]
+- ["9RobinHood19AnyStreamableSourceC", "Model"]
+- ["9RobinHood19AnyStreamableSourceC", "Result"]
+- ["9RobinHood19AnyStreamableSourceC", "StreamableSourceProtocol"]
+- ["9RobinHood19AnyStreamableSourceC", "Void"]
+- ["9RobinHood19AnyStreamableSourceC", ""]
+- !private ["9RobinHood19AnyStreamableSourceC", "_fetchHistory"]
+- !private ["9RobinHood19AnyStreamableSourceC", "_refresh"]
+- ["9RobinHood19AnyStreamableSourceC", "deinit"]
+- ["9RobinHood19AnyStreamableSourceC", "fetchHistory"]
+- ["9RobinHood19AnyStreamableSourceC", "init"]
+- ["9RobinHood19AnyStreamableSourceC", "refresh"]
+- ["9RobinHood24StreamableSourceProtocolP", "Model"]
+- ["9RobinHood24StreamableSourceProtocolP", ""]
+- !private ["9RobinHood24StreamableSourceProtocolP", "_fetchHistory"]
+- !private ["9RobinHood24StreamableSourceProtocolP", "_refresh"]
+- ["9RobinHood24StreamableSourceProtocolP", "fetchHistory"]
+- ["9RobinHood24StreamableSourceProtocolP", "refresh"]
+depends-nominal:
+- "9RobinHood19AnyStreamableSourceC"
+- "9RobinHood24StreamableSourceProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a8eb5ba789b81d876d3abac872f33aa6"

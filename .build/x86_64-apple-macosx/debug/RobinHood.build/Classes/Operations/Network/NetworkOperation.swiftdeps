@@ -1,0 +1,460 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkOperation"
+provides-nominal:
+- "9RobinHood16NetworkOperationC"
+provides-member:
+- ["9RobinHood16NetworkOperationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AnyNetworkResultFactory"
+- "AssignmentPrecedence"
+- "BaseOperation"
+- "Data"
+- !private "DispatchSemaphore"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NetworkIndicatorManager"
+- "NetworkIndicatorManagerProtocol"
+- "NetworkOperation"
+- !private "NetworkOperationHelper"
+- "NetworkRequestFactoryProtocol"
+- "NetworkRequestModifierProtocol"
+- "ResultType"
+- "URLResponse"
+- "URLSession"
+- "URLSessionDataTask"
+- !private "isCancelled"
+- !private "networkIndicatorManager"
+- !private "networkSession"
+- !private "networkTask"
+- !private "requestFactory"
+- !private "requestModifier"
+- !private "result"
+- !private "resultFactory"
+depends-member:
+- !private ["9RobinHood23AnyNetworkResultFactoryC", ""]
+- !private ["9RobinHood23AnyNetworkResultFactoryC", "createResult"]
+- ["9RobinHood13BaseOperationC", "$__lazy_storage_$_networkIndicatorManager"]
+- ["9RobinHood13BaseOperationC", "$__lazy_storage_$_networkSession"]
+- ["9RobinHood13BaseOperationC", "AnyNetworkResultFactory"]
+- !private ["9RobinHood13BaseOperationC", "Data"]
+- !private ["9RobinHood13BaseOperationC", "DispatchSemaphore"]
+- !private ["9RobinHood13BaseOperationC", "Error"]
+- ["9RobinHood13BaseOperationC", "NetworkIndicatorManager"]
+- ["9RobinHood13BaseOperationC", "NetworkIndicatorManagerProtocol"]
+- !private ["9RobinHood13BaseOperationC", "NetworkOperationHelper"]
+- ["9RobinHood13BaseOperationC", "NetworkRequestFactoryProtocol"]
+- ["9RobinHood13BaseOperationC", "NetworkRequestModifierProtocol"]
+- !private ["9RobinHood13BaseOperationC", "URLResponse"]
+- ["9RobinHood13BaseOperationC", "URLSession"]
+- ["9RobinHood13BaseOperationC", "URLSessionDataTask"]
+- ["9RobinHood13BaseOperationC", ""]
+- ["9RobinHood13BaseOperationC", "__lazy_storage_$_networkIndicatorManager"]
+- ["9RobinHood13BaseOperationC", "__lazy_storage_$_networkSession"]
+- ["9RobinHood13BaseOperationC", "cancel"]
+- ["9RobinHood13BaseOperationC", "init"]
+- !private ["9RobinHood13BaseOperationC", "isCancelled"]
+- ["9RobinHood13BaseOperationC", "main"]
+- ["9RobinHood13BaseOperationC", "networkIndicatorManager"]
+- ["9RobinHood13BaseOperationC", "networkSession"]
+- ["9RobinHood13BaseOperationC", "networkTask"]
+- ["9RobinHood13BaseOperationC", "requestFactory"]
+- ["9RobinHood13BaseOperationC", "requestModifier"]
+- !private ["9RobinHood13BaseOperationC", "result"]
+- ["9RobinHood13BaseOperationC", "resultFactory"]
+- !private ["s7CVarArgP", "DispatchSemaphore"]
+- ["s7CVarArgP", "NetworkIndicatorManager"]
+- !private ["s7CVarArgP", "NetworkOperationHelper"]
+- ["s7CVarArgP", "URLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "networkIndicatorManager"]
+- !private ["s7CVarArgP", "networkSession"]
+- !private ["s7CVarArgP", "networkTask"]
+- !private ["s7CVarArgP", "requestFactory"]
+- !private ["s7CVarArgP", "requestModifier"]
+- !private ["s7CVarArgP", "result"]
+- !private ["s7CVarArgP", "resultFactory"]
+- !private ["s7CVarArgP", "resume"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["SL", "distantFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchSemaphore"]
+- ["s28CustomDebugStringConvertibleP", "NetworkIndicatorManager"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkOperationHelper"]
+- ["s28CustomDebugStringConvertibleP", "URLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "networkIndicatorManager"]
+- !private ["s28CustomDebugStringConvertibleP", "networkSession"]
+- !private ["s28CustomDebugStringConvertibleP", "networkTask"]
+- !private ["s28CustomDebugStringConvertibleP", "requestFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "requestModifier"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "resultFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "failure"]
+- !private ["s23CustomStringConvertibleP", "DispatchSemaphore"]
+- ["s23CustomStringConvertibleP", "NetworkIndicatorManager"]
+- !private ["s23CustomStringConvertibleP", "NetworkOperationHelper"]
+- ["s23CustomStringConvertibleP", "URLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "networkIndicatorManager"]
+- !private ["s23CustomStringConvertibleP", "networkSession"]
+- !private ["s23CustomStringConvertibleP", "networkTask"]
+- !private ["s23CustomStringConvertibleP", "requestFactory"]
+- !private ["s23CustomStringConvertibleP", "requestModifier"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "resultFactory"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["Se", "failure"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "signal"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- !private ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "signal"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["SE", "failure"]
+- !private ["SQ", "DispatchSemaphore"]
+- ["SQ", "NetworkIndicatorManager"]
+- !private ["SQ", "NetworkOperationHelper"]
+- ["SQ", "URLSession"]
+- ["SQ", ""]
+- !private ["SQ", "cancel"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isCancelled"]
+- !private ["SQ", "main"]
+- !private ["SQ", "networkIndicatorManager"]
+- !private ["SQ", "networkSession"]
+- !private ["SQ", "networkTask"]
+- !private ["SQ", "requestFactory"]
+- !private ["SQ", "requestModifier"]
+- !private ["SQ", "result"]
+- !private ["SQ", "resultFactory"]
+- !private ["SQ", "resume"]
+- ["SQ", "shared"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "wait"]
+- !private ["s23ExpressibleByNilLiteralP", "failure"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "DispatchSemaphore"]
+- ["SH", "NetworkIndicatorManager"]
+- !private ["SH", "NetworkOperationHelper"]
+- ["SH", "URLSession"]
+- ["SH", ""]
+- !private ["SH", "cancel"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "failure"]
+- !private ["SH", "init"]
+- !private ["SH", "isCancelled"]
+- !private ["SH", "main"]
+- !private ["SH", "networkIndicatorManager"]
+- !private ["SH", "networkSession"]
+- !private ["SH", "networkTask"]
+- !private ["SH", "requestFactory"]
+- !private ["SH", "requestModifier"]
+- !private ["SH", "result"]
+- !private ["SH", "resultFactory"]
+- !private ["SH", "resume"]
+- ["SH", "shared"]
+- !private ["SH", "signal"]
+- !private ["SH", "wait"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "resume"]
+- ["So8NSObjectC", "$__lazy_storage_$_networkIndicatorManager"]
+- ["So8NSObjectC", "$__lazy_storage_$_networkSession"]
+- ["So8NSObjectC", "AnyNetworkResultFactory"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DispatchSemaphore"]
+- !private ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "NetworkIndicatorManager"]
+- ["So8NSObjectC", "NetworkIndicatorManagerProtocol"]
+- !private ["So8NSObjectC", "NetworkOperationHelper"]
+- ["So8NSObjectC", "NetworkRequestFactoryProtocol"]
+- ["So8NSObjectC", "NetworkRequestModifierProtocol"]
+- !private ["So8NSObjectC", "URLResponse"]
+- ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__lazy_storage_$_networkIndicatorManager"]
+- ["So8NSObjectC", "__lazy_storage_$_networkSession"]
+- !private ["So8NSObjectC", "activate"]
+- ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "dataTaskWithRequest"]
+- !private ["So8NSObjectC", "dataTaskWithURL"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isCancelled"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "networkIndicatorManager"]
+- ["So8NSObjectC", "networkSession"]
+- ["So8NSObjectC", "networkTask"]
+- ["So8NSObjectC", "requestFactory"]
+- ["So8NSObjectC", "requestModifier"]
+- !private ["So8NSObjectC", "result"]
+- ["So8NSObjectC", "resultFactory"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "wait"]
+- ["So8NSObjectP", "$__lazy_storage_$_networkIndicatorManager"]
+- ["So8NSObjectP", "$__lazy_storage_$_networkSession"]
+- ["So8NSObjectP", "AnyNetworkResultFactory"]
+- !private ["So8NSObjectP", "Data"]
+- !private ["So8NSObjectP", "DispatchSemaphore"]
+- ["So8NSObjectP", "NetworkIndicatorManager"]
+- ["So8NSObjectP", "NetworkIndicatorManagerProtocol"]
+- !private ["So8NSObjectP", "NetworkOperationHelper"]
+- ["So8NSObjectP", "NetworkRequestFactoryProtocol"]
+- ["So8NSObjectP", "NetworkRequestModifierProtocol"]
+- !private ["So8NSObjectP", "URLResponse"]
+- ["So8NSObjectP", "URLSession"]
+- ["So8NSObjectP", "URLSessionDataTask"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__lazy_storage_$_networkIndicatorManager"]
+- ["So8NSObjectP", "__lazy_storage_$_networkSession"]
+- !private ["So8NSObjectP", "activate"]
+- ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "dataTaskWithRequest"]
+- !private ["So8NSObjectP", "dataTaskWithURL"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isCancelled"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "networkIndicatorManager"]
+- ["So8NSObjectP", "networkSession"]
+- ["So8NSObjectP", "networkTask"]
+- ["So8NSObjectP", "requestFactory"]
+- ["So8NSObjectP", "requestModifier"]
+- !private ["So8NSObjectP", "result"]
+- ["So8NSObjectP", "resultFactory"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "signal"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "wait"]
+- ["9RobinHood23NetworkIndicatorManagerC", ""]
+- ["9RobinHood23NetworkIndicatorManagerC", "shared"]
+- !private ["9RobinHood31NetworkIndicatorManagerProtocolP", "decrement"]
+- !private ["9RobinHood31NetworkIndicatorManagerProtocolP", "increment"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "shared"]
+- !private ["9RobinHood16NetworkOperationC", "$__lazy_storage_$_networkIndicatorManager"]
+- !private ["9RobinHood16NetworkOperationC", "$__lazy_storage_$_networkSession"]
+- ["9RobinHood16NetworkOperationC", "AnyNetworkResultFactory"]
+- !private ["9RobinHood16NetworkOperationC", "Data"]
+- !private ["9RobinHood16NetworkOperationC", "DispatchSemaphore"]
+- !private ["9RobinHood16NetworkOperationC", "Error"]
+- ["9RobinHood16NetworkOperationC", "NetworkIndicatorManager"]
+- ["9RobinHood16NetworkOperationC", "NetworkIndicatorManagerProtocol"]
+- !private ["9RobinHood16NetworkOperationC", "NetworkOperationHelper"]
+- ["9RobinHood16NetworkOperationC", "NetworkRequestFactoryProtocol"]
+- ["9RobinHood16NetworkOperationC", "NetworkRequestModifierProtocol"]
+- !private ["9RobinHood16NetworkOperationC", "URLResponse"]
+- ["9RobinHood16NetworkOperationC", "URLSession"]
+- ["9RobinHood16NetworkOperationC", "URLSessionDataTask"]
+- ["9RobinHood16NetworkOperationC", ""]
+- ["9RobinHood16NetworkOperationC", "cancel"]
+- ["9RobinHood16NetworkOperationC", "deinit"]
+- ["9RobinHood16NetworkOperationC", "init"]
+- !private ["9RobinHood16NetworkOperationC", "isCancelled"]
+- ["9RobinHood16NetworkOperationC", "main"]
+- ["9RobinHood16NetworkOperationC", "networkIndicatorManager"]
+- ["9RobinHood16NetworkOperationC", "networkSession"]
+- !private ["9RobinHood16NetworkOperationC", "networkTask"]
+- ["9RobinHood16NetworkOperationC", "requestFactory"]
+- ["9RobinHood16NetworkOperationC", "requestModifier"]
+- !private ["9RobinHood16NetworkOperationC", "result"]
+- ["9RobinHood16NetworkOperationC", "resultFactory"]
+- !private ["9RobinHood22NetworkOperationHelperC", "isCancellation"]
+- !private ["9RobinHood29NetworkRequestFactoryProtocolP", "createRequest"]
+- !private ["9RobinHood30NetworkRequestModifierProtocolP", "modify"]
+- !private ["9RobinHood28NetworkResultFactoryProtocolP", "createResult"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "wait"]
+- ["So11NSOperationC", "$__lazy_storage_$_networkIndicatorManager"]
+- ["So11NSOperationC", "$__lazy_storage_$_networkSession"]
+- ["So11NSOperationC", "AnyNetworkResultFactory"]
+- !private ["So11NSOperationC", "Data"]
+- !private ["So11NSOperationC", "DispatchSemaphore"]
+- !private ["So11NSOperationC", "Error"]
+- ["So11NSOperationC", "NetworkIndicatorManager"]
+- ["So11NSOperationC", "NetworkIndicatorManagerProtocol"]
+- !private ["So11NSOperationC", "NetworkOperationHelper"]
+- ["So11NSOperationC", "NetworkRequestFactoryProtocol"]
+- ["So11NSOperationC", "NetworkRequestModifierProtocol"]
+- !private ["So11NSOperationC", "URLResponse"]
+- ["So11NSOperationC", "URLSession"]
+- ["So11NSOperationC", "URLSessionDataTask"]
+- ["So11NSOperationC", ""]
+- ["So11NSOperationC", "__lazy_storage_$_networkIndicatorManager"]
+- ["So11NSOperationC", "__lazy_storage_$_networkSession"]
+- ["So11NSOperationC", "cancel"]
+- ["So11NSOperationC", "init"]
+- !private ["So11NSOperationC", "isCancelled"]
+- ["So11NSOperationC", "main"]
+- ["So11NSOperationC", "networkIndicatorManager"]
+- ["So11NSOperationC", "networkSession"]
+- ["So11NSOperationC", "networkTask"]
+- ["So11NSOperationC", "requestFactory"]
+- ["So11NSOperationC", "requestModifier"]
+- !private ["So11NSOperationC", "result"]
+- ["So11NSOperationC", "resultFactory"]
+- !private ["Sq", "failure"]
+- !private ["So19NSProgressReportingP", "cancel"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["s6ResultO", "failure"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "cancel"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "cancel"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchSemaphore"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NetworkIndicatorManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkOperationHelper"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkIndicatorManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestModifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "result"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchSemaphore"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NetworkIndicatorManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NetworkOperationHelper"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isCancelled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "networkIndicatorManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "networkSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "networkTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestFactory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestModifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "result"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resultFactory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "failure"]
+depends-nominal:
+- !private "9RobinHood23AnyNetworkResultFactoryC"
+- "9RobinHood13BaseOperationC"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "So18OS_dispatch_objectC"
+- !private "So21OS_dispatch_semaphoreC"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "9RobinHood23NetworkIndicatorManagerC"
+- "9RobinHood31NetworkIndicatorManagerProtocolP"
+- "9RobinHood16NetworkOperationC"
+- !private "9RobinHood22NetworkOperationHelperC"
+- !private "9RobinHood29NetworkRequestFactoryProtocolP"
+- !private "9RobinHood30NetworkRequestModifierProtocolP"
+- !private "9RobinHood28NetworkResultFactoryProtocolP"
+- "So9OS_objectC"
+- "So11NSOperationC"
+- !private "Sq"
+- !private "So19NSProgressReportingP"
+- !private "s6ResultO"
+- "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- "So16NSURLSessionTaskC"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ee9b0a94d41a089fa42b6a944383fa7a"

@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyDataProviderRepository"
+provides-nominal:
+- "9RobinHood25AnyDataProviderRepositoryC"
+provides-member:
+- ["9RobinHood25AnyDataProviderRepositoryC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyDataProviderRepository"
+- "AssignmentPrecedence"
+- "BaseOperation"
+- "DataProviderRepositoryProtocol"
+- "Identifiable"
+- "Int"
+- "Model"
+- "RepositoryFetchOptions"
+- "RepositorySliceRequest"
+- "String"
+- "T"
+- "Void"
+- !private "_deleteAll"
+- !private "_fetchAll"
+- !private "_fetchByModelId"
+- !private "_fetchByOffsetCount"
+- !private "_fetchCount"
+- !private "_replace"
+- !private "_save"
+depends-member:
+- ["9RobinHood25AnyDataProviderRepositoryC", "BaseOperation"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "DataProviderRepositoryProtocol"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "Int"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "Model"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "RepositoryFetchOptions"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "RepositorySliceRequest"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "String"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "Void"]
+- ["9RobinHood25AnyDataProviderRepositoryC", ""]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_deleteAll"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_fetchAll"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_fetchByModelId"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_fetchByOffsetCount"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_fetchCount"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_replace"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "_save"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "deinit"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "deleteAll"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "deleteAllOperation"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "fetchAll"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "fetchAllOperation"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "fetchByModelId"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "fetchByOffsetCount"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "fetchCount"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "fetchCountOperation"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "fetchOperation"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "init"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "replace"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "replaceOperation"]
+- !private ["9RobinHood25AnyDataProviderRepositoryC", "save"]
+- ["9RobinHood25AnyDataProviderRepositoryC", "saveOperation"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "Model"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", ""]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_deleteAll"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_fetchAll"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_fetchByModelId"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_fetchByOffsetCount"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_fetchCount"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_replace"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "_save"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "deleteAll"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "deleteAllOperation"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "fetchAll"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "fetchAllOperation"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "fetchByModelId"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "fetchByOffsetCount"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "fetchCount"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "fetchCountOperation"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "fetchOperation"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "replace"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "replaceOperation"]
+- !private ["9RobinHood30DataProviderRepositoryProtocolP", "save"]
+- ["9RobinHood30DataProviderRepositoryProtocolP", "saveOperation"]
+depends-nominal:
+- "9RobinHood25AnyDataProviderRepositoryC"
+- "9RobinHood30DataProviderRepositoryProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9c49bac718e4d8fe5faabfb57ddfea33"

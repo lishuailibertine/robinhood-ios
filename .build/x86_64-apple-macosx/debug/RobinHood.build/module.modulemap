@@ -1,0 +1,4 @@
+module RobinHood {
+    header "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/RobinHood-Swift.h"
+    requires objc
+}

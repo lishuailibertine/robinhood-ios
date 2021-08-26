@@ -1,0 +1,349 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataProviderEvent"
+- "DataProviderTriggerProtocol"
+- "DataProviderTriggerDelegate"
+- "DataProviderEventTrigger"
+provides-nominal:
+- "9RobinHood17DataProviderEventO"
+- "9RobinHood27DataProviderTriggerProtocolP"
+- "9RobinHood27DataProviderTriggerDelegateP"
+- "9RobinHood24DataProviderEventTriggerV"
+provides-member:
+- ["9RobinHood17DataProviderEventO", ""]
+- ["9RobinHood27DataProviderTriggerProtocolP", ""]
+- ["9RobinHood27DataProviderTriggerDelegateP", ""]
+- ["9RobinHood24DataProviderEventTriggerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&="
+- !private "<<"
+- "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "DataProviderEvent"
+- "DataProviderEventTrigger"
+- "DataProviderTriggerDelegate"
+- "DataProviderTriggerProtocol"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "OptionSet"
+- "String"
+- "UInt"
+- "UInt8"
+- !private "^="
+- !private "delegate"
+- !private "rawValue"
+- !private "|"
+- !private "|="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["Sz", ""]
+- !private ["SL", ""]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["9RobinHood17DataProviderEventO", "AnyObject"]
+- ["9RobinHood17DataProviderEventO", "String"]
+- ["9RobinHood17DataProviderEventO", "UInt"]
+- ["9RobinHood17DataProviderEventO", "addObserver"]
+- ["9RobinHood17DataProviderEventO", "fetchById"]
+- ["9RobinHood17DataProviderEventO", "fetchPage"]
+- ["9RobinHood17DataProviderEventO", "initialization"]
+- ["9RobinHood17DataProviderEventO", "removeObserver"]
+- ["9RobinHood24DataProviderEventTriggerV", "=="]
+- ["9RobinHood24DataProviderEventTriggerV", "ArrayLiteralElement"]
+- ["9RobinHood24DataProviderEventTriggerV", "DataProviderEvent"]
+- ["9RobinHood24DataProviderEventTriggerV", "DataProviderEventTrigger"]
+- ["9RobinHood24DataProviderEventTriggerV", "DataProviderTriggerDelegate"]
+- ["9RobinHood24DataProviderEventTriggerV", "Default_ArrayLiteralElement"]
+- ["9RobinHood24DataProviderEventTriggerV", "Default_Element"]
+- ["9RobinHood24DataProviderEventTriggerV", "Element"]
+- ["9RobinHood24DataProviderEventTriggerV", "RawValue"]
+- ["9RobinHood24DataProviderEventTriggerV", "UInt8"]
+- ["9RobinHood24DataProviderEventTriggerV", ""]
+- ["9RobinHood24DataProviderEventTriggerV", "_Default_ArrayLiteralElement"]
+- ["9RobinHood24DataProviderEventTriggerV", "_Default_Element"]
+- ["9RobinHood24DataProviderEventTriggerV", "contains"]
+- ["9RobinHood24DataProviderEventTriggerV", "delegate"]
+- ["9RobinHood24DataProviderEventTriggerV", "formIntersection"]
+- ["9RobinHood24DataProviderEventTriggerV", "formSymmetricDifference"]
+- ["9RobinHood24DataProviderEventTriggerV", "formUnion"]
+- ["9RobinHood24DataProviderEventTriggerV", "init"]
+- ["9RobinHood24DataProviderEventTriggerV", "insert"]
+- ["9RobinHood24DataProviderEventTriggerV", "intersection"]
+- ["9RobinHood24DataProviderEventTriggerV", "isDisjoint"]
+- ["9RobinHood24DataProviderEventTriggerV", "isEmpty"]
+- ["9RobinHood24DataProviderEventTriggerV", "isSubset"]
+- ["9RobinHood24DataProviderEventTriggerV", "isSuperset"]
+- ["9RobinHood24DataProviderEventTriggerV", "onAddObserver"]
+- ["9RobinHood24DataProviderEventTriggerV", "onAll"]
+- ["9RobinHood24DataProviderEventTriggerV", "onFetchById"]
+- ["9RobinHood24DataProviderEventTriggerV", "onFetchPage"]
+- ["9RobinHood24DataProviderEventTriggerV", "onInitialization"]
+- ["9RobinHood24DataProviderEventTriggerV", "onNone"]
+- ["9RobinHood24DataProviderEventTriggerV", "onRemoveObserver"]
+- ["9RobinHood24DataProviderEventTriggerV", "rawValue"]
+- ["9RobinHood24DataProviderEventTriggerV", "receive"]
+- ["9RobinHood24DataProviderEventTriggerV", "remove"]
+- ["9RobinHood24DataProviderEventTriggerV", "subtract"]
+- ["9RobinHood24DataProviderEventTriggerV", "subtracting"]
+- ["9RobinHood24DataProviderEventTriggerV", "symmetricDifference"]
+- ["9RobinHood24DataProviderEventTriggerV", "union"]
+- ["9RobinHood24DataProviderEventTriggerV", "update"]
+- ["9RobinHood27DataProviderTriggerDelegateP", "didTrigger"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "=="]
+- ["9RobinHood27DataProviderTriggerProtocolP", "ArrayLiteralElement"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "DataProviderEvent"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "DataProviderEventTrigger"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "DataProviderTriggerDelegate"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "Default_ArrayLiteralElement"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "Default_Element"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "Element"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "RawValue"]
+- ["9RobinHood27DataProviderTriggerProtocolP", ""]
+- ["9RobinHood27DataProviderTriggerProtocolP", "_Default_ArrayLiteralElement"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "_Default_Element"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "contains"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "delegate"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "formIntersection"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "formSymmetricDifference"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "formUnion"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "init"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "insert"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "intersection"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "isDisjoint"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "isEmpty"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "isSubset"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "isSuperset"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "onAddObserver"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "onFetchById"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "onFetchPage"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "onInitialization"]
+- !private ["9RobinHood27DataProviderTriggerProtocolP", "onRemoveObserver"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "rawValue"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "receive"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "remove"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "subtract"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "subtracting"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "symmetricDifference"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "union"]
+- ["9RobinHood27DataProviderTriggerProtocolP", "update"]
+- ["SQ", "=="]
+- ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "DataProviderEventTrigger"]
+- ["SQ", "Default_ArrayLiteralElement"]
+- ["SQ", "Default_Element"]
+- ["SQ", "Element"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- ["SQ", "_Default_Element"]
+- ["SQ", "contains"]
+- ["SQ", "delegate"]
+- ["SQ", "formIntersection"]
+- ["SQ", "formSymmetricDifference"]
+- ["SQ", "formUnion"]
+- ["SQ", "init"]
+- ["SQ", "insert"]
+- ["SQ", "intersection"]
+- ["SQ", "isDisjoint"]
+- ["SQ", "isEmpty"]
+- ["SQ", "isSubset"]
+- ["SQ", "isSuperset"]
+- !private ["SQ", "onAddObserver"]
+- !private ["SQ", "onFetchById"]
+- !private ["SQ", "onFetchPage"]
+- !private ["SQ", "onInitialization"]
+- !private ["SQ", "onRemoveObserver"]
+- ["SQ", "rawValue"]
+- ["SQ", "receive"]
+- ["SQ", "remove"]
+- ["SQ", "subtract"]
+- ["SQ", "subtracting"]
+- ["SQ", "symmetricDifference"]
+- ["SQ", "union"]
+- ["SQ", "update"]
+- ["s25ExpressibleByArrayLiteralP", "=="]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "DataProviderEventTrigger"]
+- ["s25ExpressibleByArrayLiteralP", "Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "delegate"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- !private ["s25ExpressibleByArrayLiteralP", "onAddObserver"]
+- !private ["s25ExpressibleByArrayLiteralP", "onFetchById"]
+- !private ["s25ExpressibleByArrayLiteralP", "onFetchPage"]
+- !private ["s25ExpressibleByArrayLiteralP", "onInitialization"]
+- !private ["s25ExpressibleByArrayLiteralP", "onRemoveObserver"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "receive"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["SH", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["Sj", ""]
+- ["s9OptionSetP", "=="]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "DataProviderEventTrigger"]
+- ["s9OptionSetP", "Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "Default_Element"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "delegate"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- !private ["s9OptionSetP", "onAddObserver"]
+- !private ["s9OptionSetP", "onFetchById"]
+- !private ["s9OptionSetP", "onFetchPage"]
+- !private ["s9OptionSetP", "onInitialization"]
+- !private ["s9OptionSetP", "onRemoveObserver"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "receive"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- ["SY", "=="]
+- ["SY", "ArrayLiteralElement"]
+- !private ["SY", "DataProviderEventTrigger"]
+- ["SY", "Default_ArrayLiteralElement"]
+- ["SY", "Default_Element"]
+- ["SY", "Element"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_ArrayLiteralElement"]
+- ["SY", "_Default_Element"]
+- ["SY", "contains"]
+- ["SY", "delegate"]
+- ["SY", "formIntersection"]
+- ["SY", "formSymmetricDifference"]
+- ["SY", "formUnion"]
+- ["SY", "init"]
+- ["SY", "insert"]
+- ["SY", "intersection"]
+- ["SY", "isDisjoint"]
+- ["SY", "isEmpty"]
+- ["SY", "isSubset"]
+- ["SY", "isSuperset"]
+- !private ["SY", "onAddObserver"]
+- !private ["SY", "onFetchById"]
+- !private ["SY", "onFetchPage"]
+- !private ["SY", "onInitialization"]
+- !private ["SY", "onRemoveObserver"]
+- ["SY", "rawValue"]
+- ["SY", "receive"]
+- ["SY", "remove"]
+- ["SY", "subtract"]
+- ["SY", "subtracting"]
+- ["SY", "symmetricDifference"]
+- ["SY", "union"]
+- ["SY", "update"]
+- ["ST", "Element"]
+- ["s10SetAlgebraP", "=="]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "DataProviderEventTrigger"]
+- ["s10SetAlgebraP", "Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Default_Element"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "delegate"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- !private ["s10SetAlgebraP", "onAddObserver"]
+- !private ["s10SetAlgebraP", "onFetchById"]
+- !private ["s10SetAlgebraP", "onFetchPage"]
+- !private ["s10SetAlgebraP", "onInitialization"]
+- !private ["s10SetAlgebraP", "onRemoveObserver"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "receive"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- !private ["Sx", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sz"
+- !private "SL"
+- !private "s23CustomStringConvertibleP"
+- "9RobinHood17DataProviderEventO"
+- "9RobinHood24DataProviderEventTriggerV"
+- "9RobinHood27DataProviderTriggerDelegateP"
+- "9RobinHood27DataProviderTriggerProtocolP"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "Sj"
+- "s9OptionSetP"
+- "SY"
+- "ST"
+- "s10SetAlgebraP"
+- !private "Sx"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0c836b8ac1383bd40a277cd479620e3d"

@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataMapperProtocol"
+- "AnyCoreDataMapper"
+- "CoreDataCodable"
+- "CodableCoreDataMapper"
+provides-nominal:
+- "9RobinHood22CoreDataMapperProtocolP"
+- "9RobinHood17AnyCoreDataMapperC"
+- "9RobinHood15CoreDataCodableP"
+- "9RobinHood21CodableCoreDataMapperC"
+provides-member:
+- ["9RobinHood22CoreDataMapperProtocolP", ""]
+- ["9RobinHood17AnyCoreDataMapperC", ""]
+- ["9RobinHood15CoreDataCodableP", ""]
+- ["9RobinHood21CodableCoreDataMapperC", ""]
+provides-dynamic-lookup:
+- "decoder"
+- "populate"
+depends-top-level:
+- "AnyCoreDataMapper"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Codable"
+- "CodableCoreDataMapper"
+- "CoreDataCodable"
+- !private "CoreDataDecodingContainer"
+- "CoreDataEntity"
+- "CoreDataMapperProtocol"
+- "DataProviderModel"
+- "Decodable"
+- "Decoder"
+- "Encodable"
+- "Identifiable"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- "String"
+- "StringLiteralType"
+- "T"
+- "U"
+- "Void"
+- !private "_entityIdentifierFieldName"
+- !private "_populate"
+- !private "_transform"
+- !private "decoder"
+depends-member:
+- ["9RobinHood17AnyCoreDataMapperC", "CoreDataEntity"]
+- ["9RobinHood17AnyCoreDataMapperC", "CoreDataMapperProtocol"]
+- ["9RobinHood17AnyCoreDataMapperC", "DataProviderModel"]
+- ["9RobinHood17AnyCoreDataMapperC", "NSManagedObjectContext"]
+- ["9RobinHood17AnyCoreDataMapperC", "String"]
+- ["9RobinHood17AnyCoreDataMapperC", "Void"]
+- ["9RobinHood17AnyCoreDataMapperC", ""]
+- !private ["9RobinHood17AnyCoreDataMapperC", "_entityIdentifierFieldName"]
+- !private ["9RobinHood17AnyCoreDataMapperC", "_populate"]
+- !private ["9RobinHood17AnyCoreDataMapperC", "_transform"]
+- ["9RobinHood17AnyCoreDataMapperC", "deinit"]
+- ["9RobinHood17AnyCoreDataMapperC", "entityIdentifierFieldName"]
+- ["9RobinHood17AnyCoreDataMapperC", "init"]
+- ["9RobinHood17AnyCoreDataMapperC", "populate"]
+- ["9RobinHood17AnyCoreDataMapperC", "transform"]
+- !private ["9RobinHood21CodableCoreDataMapperC", "CoreDataDecodingContainer"]
+- ["9RobinHood21CodableCoreDataMapperC", "CoreDataEntity"]
+- ["9RobinHood21CodableCoreDataMapperC", "DataProviderModel"]
+- !private ["9RobinHood21CodableCoreDataMapperC", "JSONDecoder"]
+- !private ["9RobinHood21CodableCoreDataMapperC", "JSONEncoder"]
+- ["9RobinHood21CodableCoreDataMapperC", "NSManagedObjectContext"]
+- ["9RobinHood21CodableCoreDataMapperC", "String"]
+- !private ["9RobinHood21CodableCoreDataMapperC", "T"]
+- ["9RobinHood21CodableCoreDataMapperC", ""]
+- ["9RobinHood21CodableCoreDataMapperC", "deinit"]
+- ["9RobinHood21CodableCoreDataMapperC", "entityIdentifierFieldName"]
+- ["9RobinHood21CodableCoreDataMapperC", "init"]
+- ["9RobinHood21CodableCoreDataMapperC", "populate"]
+- ["9RobinHood21CodableCoreDataMapperC", "transform"]
+- ["9RobinHood15CoreDataCodableP", "Decoder"]
+- ["9RobinHood15CoreDataCodableP", "NSManagedObjectContext"]
+- ["9RobinHood15CoreDataCodableP", "populate"]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "CoreDataDecodingContainer"]
+- ["9RobinHood22CoreDataMapperProtocolP", "CoreDataEntity"]
+- ["9RobinHood22CoreDataMapperProtocolP", "DataProviderModel"]
+- ["9RobinHood22CoreDataMapperProtocolP", "Identifiable"]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "JSONDecoder"]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "JSONEncoder"]
+- ["9RobinHood22CoreDataMapperProtocolP", "NSManagedObject"]
+- ["9RobinHood22CoreDataMapperProtocolP", "NSManagedObjectContext"]
+- ["9RobinHood22CoreDataMapperProtocolP", "String"]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "T"]
+- ["9RobinHood22CoreDataMapperProtocolP", ""]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "_entityIdentifierFieldName"]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "_populate"]
+- !private ["9RobinHood22CoreDataMapperProtocolP", "_transform"]
+- ["9RobinHood22CoreDataMapperProtocolP", "entityIdentifierFieldName"]
+- ["9RobinHood22CoreDataMapperProtocolP", "populate"]
+- ["9RobinHood22CoreDataMapperProtocolP", "transform"]
+- !private ["Se", ""]
+- !private ["Se", "decoder"]
+- ["Se", "init"]
+- !private ["Se", "populate"]
+- ["SE", "Decoder"]
+- ["SE", "NSManagedObjectContext"]
+- ["SE", ""]
+- ["SE", "populate"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "9RobinHood17AnyCoreDataMapperC"
+- "9RobinHood21CodableCoreDataMapperC"
+- "9RobinHood15CoreDataCodableP"
+- "9RobinHood22CoreDataMapperProtocolP"
+- "Se"
+- "SE"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7e26203cc3c4bffebc5e24d2dfbeaa2b"

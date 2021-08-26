@@ -1,0 +1,176 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OperationConfigBlock"
+- "BaseOperationError"
+- "BaseOperation"
+provides-nominal:
+- "9RobinHood18BaseOperationErrorO"
+- "9RobinHood13BaseOperationC"
+provides-member:
+- ["9RobinHood18BaseOperationErrorO", ""]
+- ["9RobinHood13BaseOperationC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "BaseOperation"
+- "BaseOperationError"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Operation"
+- "OperationConfigBlock"
+- "Result"
+- "ResultType"
+- "Void"
+- !private "configurationBlock"
+depends-member:
+- ["9RobinHood13BaseOperationC", "Error"]
+- ["9RobinHood13BaseOperationC", "OperationConfigBlock"]
+- ["9RobinHood13BaseOperationC", "Result"]
+- ["9RobinHood13BaseOperationC", ""]
+- ["9RobinHood13BaseOperationC", "cancel"]
+- ["9RobinHood13BaseOperationC", "configurationBlock"]
+- ["9RobinHood13BaseOperationC", "deinit"]
+- ["9RobinHood13BaseOperationC", "init"]
+- ["9RobinHood13BaseOperationC", "main"]
+- ["9RobinHood13BaseOperationC", "result"]
+- ["9RobinHood18BaseOperationErrorO", "=="]
+- ["9RobinHood18BaseOperationErrorO", ""]
+- ["9RobinHood18BaseOperationErrorO", "__derived_enum_equals"]
+- ["9RobinHood18BaseOperationErrorO", "_code"]
+- ["9RobinHood18BaseOperationErrorO", "_domain"]
+- ["9RobinHood18BaseOperationErrorO", "_getEmbeddedNSError"]
+- ["9RobinHood18BaseOperationErrorO", "_rawHashValue"]
+- ["9RobinHood18BaseOperationErrorO", "_userInfo"]
+- ["9RobinHood18BaseOperationErrorO", "code"]
+- ["9RobinHood18BaseOperationErrorO", "domain"]
+- ["9RobinHood18BaseOperationErrorO", "hash"]
+- ["9RobinHood18BaseOperationErrorO", "hashValue"]
+- ["9RobinHood18BaseOperationErrorO", "parentOperationCancelled"]
+- ["9RobinHood18BaseOperationErrorO", "unexpectedDependentResult"]
+- ["9RobinHood18BaseOperationErrorO", "userInfo"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "configurationBlock"]
+- !private ["s7CVarArgP", "main"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "configurationBlock"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "configurationBlock"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "cancel"]
+- ["SQ", "code"]
+- !private ["SQ", "configurationBlock"]
+- ["SQ", "domain"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "main"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "userInfo"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "cancel"]
+- ["SH", "code"]
+- !private ["SH", "configurationBlock"]
+- ["SH", "domain"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "main"]
+- ["SH", "userInfo"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "OperationConfigBlock"]
+- ["So8NSObjectC", "Result"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "cancel"]
+- ["So8NSObjectC", "configurationBlock"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "result"]
+- ["So8NSObjectP", "Error"]
+- ["So8NSObjectP", "OperationConfigBlock"]
+- ["So8NSObjectP", "Result"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "cancel"]
+- ["So8NSObjectP", "configurationBlock"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "result"]
+- ["So11NSOperationC", "Error"]
+- ["So11NSOperationC", "OperationConfigBlock"]
+- ["So11NSOperationC", "Result"]
+- ["So11NSOperationC", ""]
+- ["So11NSOperationC", "cancel"]
+- ["So11NSOperationC", "configurationBlock"]
+- ["So11NSOperationC", "init"]
+- ["So11NSOperationC", "main"]
+- ["So11NSOperationC", "result"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configurationBlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configurationBlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+depends-nominal:
+- "9RobinHood13BaseOperationC"
+- "9RobinHood18BaseOperationErrorO"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- !private "s6HasherV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSOperationC"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6e221c33e65795fa6edf787440c5ff60"

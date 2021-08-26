@@ -1,0 +1,551 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataServiceError"
+- "CoreDataService"
+provides-nominal:
+- "9RobinHood20CoreDataServiceErrorO"
+- "9RobinHood15CoreDataServiceC"
+- "9RobinHood15CoreDataServiceC10SetupStateO"
+provides-member:
+- ["9RobinHood20CoreDataServiceErrorO", ""]
+- ["9RobinHood15CoreDataServiceC", ""]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", ""]
+- ["9RobinHood15CoreDataServiceC", "invoke"]
+- ["9RobinHood15CoreDataServiceC", "setup"]
+- ["9RobinHood15CoreDataServiceC", "checkCompatibility"]
+provides-dynamic-lookup:
+- "checkCompatibility"
+- "close"
+- "configuration"
+- "context"
+- "databaseURL"
+- "drop"
+- "invoke"
+- "lock"
+- "performAsync"
+- "removeDatabaseFile"
+- "setup"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CoreDataContextInvocationBlock"
+- "CoreDataPersistentSettings"
+- "CoreDataService"
+- "CoreDataServiceConfigurationProtocol"
+- "CoreDataServiceError"
+- "CoreDataServiceProtocol"
+- "Error"
+- "FileManager"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NSInMemoryStoreType"
+- "NSLock"
+- "NSManagedObjectContext"
+- "NSManagedObjectModel"
+- !private "NSPersistentStoreCoordinator"
+- !private "NSSQLiteStoreType"
+- "ObjCBool"
+- "String"
+- "URL"
+- !private "URLResourceValues"
+- !private "checkCompatibility"
+- !private "configuration"
+- !private "context"
+- !private "invoke"
+- !private "lock"
+- !private "removeDatabaseFile"
+- !private "setup"
+depends-member:
+- !private ["SK", ""]
+- !private ["s7CVarArgP", "addPersistentStore"]
+- !private ["s7CVarArgP", "createDirectory"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "fileExists"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isConfiguration"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "metadataForPersistentStore"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "performAndWait"]
+- !private ["s7CVarArgP", "persistentStoreCoordinator"]
+- !private ["s7CVarArgP", "persistentStores"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- !private ["9RobinHood26CoreDataPersistentSettingsV", "databaseDirectory"]
+- !private ["9RobinHood26CoreDataPersistentSettingsV", "databaseName"]
+- !private ["9RobinHood26CoreDataPersistentSettingsV", "excludeFromiCloudBackup"]
+- !private ["9RobinHood26CoreDataPersistentSettingsV", "incompatibleModelStrategy"]
+- ["9RobinHood15CoreDataServiceC", "Bool"]
+- ["9RobinHood15CoreDataServiceC", "CoreDataContextInvocationBlock"]
+- ["9RobinHood15CoreDataServiceC", "CoreDataPersistentSettings"]
+- ["9RobinHood15CoreDataServiceC", "CoreDataServiceConfigurationProtocol"]
+- !private ["9RobinHood15CoreDataServiceC", "CoreDataServiceError"]
+- ["9RobinHood15CoreDataServiceC", "FileManager"]
+- !private ["9RobinHood15CoreDataServiceC", "NSInMemoryStoreType"]
+- ["9RobinHood15CoreDataServiceC", "NSLock"]
+- ["9RobinHood15CoreDataServiceC", "NSManagedObjectContext"]
+- ["9RobinHood15CoreDataServiceC", "NSManagedObjectModel"]
+- !private ["9RobinHood15CoreDataServiceC", "NSPersistentStoreCoordinator"]
+- !private ["9RobinHood15CoreDataServiceC", "NSSQLiteStoreType"]
+- !private ["9RobinHood15CoreDataServiceC", "ObjCBool"]
+- ["9RobinHood15CoreDataServiceC", "SetupState"]
+- !private ["9RobinHood15CoreDataServiceC", "String"]
+- ["9RobinHood15CoreDataServiceC", "URL"]
+- !private ["9RobinHood15CoreDataServiceC", "URLResourceValues"]
+- ["9RobinHood15CoreDataServiceC", ""]
+- ["9RobinHood15CoreDataServiceC", "checkCompatibility"]
+- ["9RobinHood15CoreDataServiceC", "close"]
+- ["9RobinHood15CoreDataServiceC", "configuration"]
+- ["9RobinHood15CoreDataServiceC", "context"]
+- ["9RobinHood15CoreDataServiceC", "databaseURL"]
+- ["9RobinHood15CoreDataServiceC", "deinit"]
+- ["9RobinHood15CoreDataServiceC", "drop"]
+- ["9RobinHood15CoreDataServiceC", "init"]
+- ["9RobinHood15CoreDataServiceC", "invoke"]
+- !private ["9RobinHood15CoreDataServiceC", "lock"]
+- ["9RobinHood15CoreDataServiceC", "performAsync"]
+- !private ["9RobinHood15CoreDataServiceC", "removeDatabaseFile"]
+- ["9RobinHood15CoreDataServiceC", "setup"]
+- !private ["9RobinHood36CoreDataServiceConfigurationProtocolP", "modelURL"]
+- !private ["9RobinHood36CoreDataServiceConfigurationProtocolP", "storageType"]
+- ["9RobinHood20CoreDataServiceErrorO", "=="]
+- ["9RobinHood20CoreDataServiceErrorO", ""]
+- ["9RobinHood20CoreDataServiceErrorO", "__derived_enum_equals"]
+- ["9RobinHood20CoreDataServiceErrorO", "_code"]
+- ["9RobinHood20CoreDataServiceErrorO", "_domain"]
+- ["9RobinHood20CoreDataServiceErrorO", "_getEmbeddedNSError"]
+- ["9RobinHood20CoreDataServiceErrorO", "_rawHashValue"]
+- ["9RobinHood20CoreDataServiceErrorO", "_userInfo"]
+- ["9RobinHood20CoreDataServiceErrorO", "code"]
+- ["9RobinHood20CoreDataServiceErrorO", "databaseURLInvalid"]
+- ["9RobinHood20CoreDataServiceErrorO", "domain"]
+- ["9RobinHood20CoreDataServiceErrorO", "hash"]
+- ["9RobinHood20CoreDataServiceErrorO", "hashValue"]
+- ["9RobinHood20CoreDataServiceErrorO", "incompatibleModelRemoveFailed"]
+- ["9RobinHood20CoreDataServiceErrorO", "modelInitializationFailed"]
+- ["9RobinHood20CoreDataServiceErrorO", "unexpectedCloseDuringSetup"]
+- ["9RobinHood20CoreDataServiceErrorO", "unexpectedDropWhenOpen"]
+- ["9RobinHood20CoreDataServiceErrorO", "userInfo"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "CoreDataServiceError"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "FileManager"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "NSInMemoryStoreType"]
+- ["9RobinHood23CoreDataServiceProtocolP", "NSLock"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "NSManagedObjectContext"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "NSManagedObjectModel"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "NSPersistentStoreCoordinator"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "NSSQLiteStoreType"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "URLResourceValues"]
+- ["9RobinHood23CoreDataServiceProtocolP", ""]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "checkCompatibility"]
+- ["9RobinHood23CoreDataServiceProtocolP", "close"]
+- ["9RobinHood23CoreDataServiceProtocolP", "configuration"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "context"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "databaseURL"]
+- ["9RobinHood23CoreDataServiceProtocolP", "drop"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "invoke"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "lock"]
+- ["9RobinHood23CoreDataServiceProtocolP", "performAsync"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "removeDatabaseFile"]
+- !private ["9RobinHood23CoreDataServiceProtocolP", "setup"]
+- ["9RobinHood26CoreDataServiceStorageTypeO", "inMemory"]
+- ["9RobinHood26CoreDataServiceStorageTypeO", "persistent"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addPersistentStore"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "metadataForPersistentStore"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "performAndWait"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentStoreCoordinator"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentStores"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "setResourceValues"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s17CustomReflectableP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addPersistentStore"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isConfiguration"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "metadataForPersistentStore"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "performAndWait"]
+- !private ["s23CustomStringConvertibleP", "persistentStoreCoordinator"]
+- !private ["s23CustomStringConvertibleP", "persistentStores"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "setResourceValues"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "path"]
+- !private ["Se", "setResourceValues"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "path"]
+- !private ["SE", "setResourceValues"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "addPersistentStore"]
+- !private ["SQ", "appendingPathComponent"]
+- ["SQ", "code"]
+- !private ["SQ", "createDirectory"]
+- !private ["SQ", "databaseURLInvalid"]
+- !private ["SQ", "default"]
+- ["SQ", "domain"]
+- !private ["SQ", "fileExists"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "ignore"]
+- ["SQ", "init"]
+- !private ["SQ", "isConfiguration"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "metadataForPersistentStore"]
+- !private ["SQ", "modelInitializationFailed"]
+- !private ["SQ", "path"]
+- !private ["SQ", "perform"]
+- !private ["SQ", "performAndWait"]
+- !private ["SQ", "persistentStoreCoordinator"]
+- !private ["SQ", "persistentStores"]
+- !private ["SQ", "privateQueueConcurrencyType"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeItem"]
+- !private ["SQ", "setResourceValues"]
+- !private ["SQ", "unexpectedDropWhenOpen"]
+- !private ["SQ", "unlock"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "databaseURLInvalid"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "modelInitializationFailed"]
+- !private ["s5ErrorP", "unexpectedDropWhenOpen"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s27ExpressibleByBooleanLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So13NSFileManagerC", "createDirectory"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["So13NSFileManagerC", "removeItem"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "addPersistentStore"]
+- !private ["SH", "appendingPathComponent"]
+- ["SH", "code"]
+- !private ["SH", "createDirectory"]
+- !private ["SH", "databaseURLInvalid"]
+- !private ["SH", "default"]
+- ["SH", "domain"]
+- !private ["SH", "fileExists"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "ignore"]
+- ["SH", "init"]
+- !private ["SH", "isConfiguration"]
+- !private ["SH", "lock"]
+- !private ["SH", "metadataForPersistentStore"]
+- !private ["SH", "modelInitializationFailed"]
+- !private ["SH", "path"]
+- !private ["SH", "perform"]
+- !private ["SH", "performAndWait"]
+- !private ["SH", "persistentStoreCoordinator"]
+- !private ["SH", "persistentStores"]
+- !private ["SH", "privateQueueConcurrencyType"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeItem"]
+- !private ["SH", "setResourceValues"]
+- !private ["SH", "unexpectedDropWhenOpen"]
+- !private ["SH", "unlock"]
+- ["SH", "userInfo"]
+- !private ["s6HasherV", "combine"]
+- !private ["9RobinHood33IncompatibleModelHandlingStrategyO", ""]
+- !private ["9RobinHood33IncompatibleModelHandlingStrategyO", "ignore"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isConfiguration"]
+- !private ["So8NSCodingP", "perform"]
+- !private ["So8NSCodingP", "performAndWait"]
+- !private ["So8NSCodingP", "persistentStoreCoordinator"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isConfiguration"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "isConfiguration"]
+- ["So6NSLockC", "init"]
+- !private ["So6NSLockC", "lock"]
+- !private ["So6NSLockC", "unlock"]
+- !private ["So9NSLockingP", "addPersistentStore"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "metadataForPersistentStore"]
+- !private ["So9NSLockingP", "perform"]
+- !private ["So9NSLockingP", "performAndWait"]
+- !private ["So9NSLockingP", "persistentStoreCoordinator"]
+- !private ["So9NSLockingP", "persistentStores"]
+- !private ["So9NSLockingP", "remove"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So22NSManagedObjectContextC", "init"]
+- !private ["So22NSManagedObjectContextC", "perform"]
+- !private ["So22NSManagedObjectContextC", "performAndWait"]
+- !private ["So22NSManagedObjectContextC", "persistentStoreCoordinator"]
+- !private ["So37NSManagedObjectContextConcurrencyTypeV", "privateQueueConcurrencyType"]
+- !private ["So20NSManagedObjectModelC", "init"]
+- !private ["So20NSManagedObjectModelC", "isConfiguration"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addPersistentStore"]
+- !private ["So8NSObjectC", "addPersistentStoreWithDescription"]
+- !private ["So8NSObjectC", "addPersistentStoreWithType"]
+- !private ["So8NSObjectC", "createDirectory"]
+- !private ["So8NSObjectC", "createDirectoryAtPath"]
+- !private ["So8NSObjectC", "createDirectoryAtURL"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "fileExistsAtPath"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isConfiguration"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "lockBeforeDate"]
+- !private ["So8NSObjectC", "metadata"]
+- !private ["So8NSObjectC", "metadataForPersistentStore"]
+- !private ["So8NSObjectC", "metadataForPersistentStoreOfType"]
+- !private ["So8NSObjectC", "metadataForPersistentStoreWithURL"]
+- !private ["So8NSObjectC", "modelByMergingModels"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "performAndWait"]
+- !private ["So8NSObjectC", "performBlock"]
+- !private ["So8NSObjectC", "performBlockAndWait"]
+- !private ["So8NSObjectC", "persistentStoreCoordinator"]
+- !private ["So8NSObjectC", "persistentStores"]
+- !private ["So8NSObjectC", "remove"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So8NSObjectC", "removeItemAtPath"]
+- !private ["So8NSObjectC", "removeItemAtURL"]
+- !private ["So8NSObjectC", "removePersistentStore"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addPersistentStore"]
+- !private ["So8NSObjectP", "addPersistentStoreWithDescription"]
+- !private ["So8NSObjectP", "addPersistentStoreWithType"]
+- !private ["So8NSObjectP", "createDirectory"]
+- !private ["So8NSObjectP", "createDirectoryAtPath"]
+- !private ["So8NSObjectP", "createDirectoryAtURL"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "fileExistsAtPath"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isConfiguration"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "lockBeforeDate"]
+- !private ["So8NSObjectP", "metadata"]
+- !private ["So8NSObjectP", "metadataForPersistentStore"]
+- !private ["So8NSObjectP", "metadataForPersistentStoreOfType"]
+- !private ["So8NSObjectP", "metadataForPersistentStoreWithURL"]
+- !private ["So8NSObjectP", "modelByMergingModels"]
+- !private ["So8NSObjectP", "perform"]
+- !private ["So8NSObjectP", "performAndWait"]
+- !private ["So8NSObjectP", "performBlock"]
+- !private ["So8NSObjectP", "performBlockAndWait"]
+- !private ["So8NSObjectP", "persistentStoreCoordinator"]
+- !private ["So8NSObjectP", "persistentStores"]
+- !private ["So8NSObjectP", "remove"]
+- !private ["So8NSObjectP", "removeItem"]
+- !private ["So8NSObjectP", "removeItemAtPath"]
+- !private ["So8NSObjectP", "removeItemAtURL"]
+- !private ["So8NSObjectP", "removePersistentStore"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So28NSPersistentStoreCoordinatorC", "addPersistentStore"]
+- !private ["So28NSPersistentStoreCoordinatorC", "init"]
+- !private ["So28NSPersistentStoreCoordinatorC", "metadataForPersistentStore"]
+- !private ["So28NSPersistentStoreCoordinatorC", "persistentStores"]
+- !private ["So28NSPersistentStoreCoordinatorC", "remove"]
+- !private ["10ObjectiveC8ObjCBoolV", "boolValue"]
+- !private ["SY", "privateQueueConcurrencyType"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "setResourceValues"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "makeIterator"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "=="]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", ""]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "__derived_enum_equals"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "_rawHashValue"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "completed"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "hash"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "hashValue"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "initial"]
+- ["9RobinHood15CoreDataServiceC10SetupStateO", "inprogress"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["10Foundation3URLV", "setResourceValues"]
+- !private ["10Foundation17URLResourceValuesV", "init"]
+- !private ["10Foundation17URLResourceValuesV", "isExcludedFromBackup"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "setResourceValues"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "setResourceValues"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPersistentStore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "metadataForPersistentStore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performAndWait"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentStoreCoordinator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentStores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "remove"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addPersistentStore"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createDirectory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "metadataForPersistentStore"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "perform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performAndWait"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "persistentStoreCoordinator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "persistentStores"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "remove"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "setResourceValues"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "9RobinHood26CoreDataPersistentSettingsV"
+- "9RobinHood15CoreDataServiceC"
+- !private "9RobinHood36CoreDataServiceConfigurationProtocolP"
+- "9RobinHood20CoreDataServiceErrorO"
+- "9RobinHood23CoreDataServiceProtocolP"
+- "9RobinHood26CoreDataServiceStorageTypeO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So13NSFileManagerC"
+- "SH"
+- !private "s6HasherV"
+- !private "9RobinHood33IncompatibleModelHandlingStrategyO"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So17NSFastEnumerationP"
+- "So6NSLockC"
+- "So9NSLockingP"
+- !private "So22NSManagedObjectContextC"
+- !private "So37NSManagedObjectContextConcurrencyTypeV"
+- !private "So20NSManagedObjectModelC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So28NSPersistentStoreCoordinatorC"
+- !private "10ObjectiveC8ObjCBoolV"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- "9RobinHood15CoreDataServiceC10SetupStateO"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation17URLResourceValuesV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8f8fd810357463a2b12d43775c0aa47d"

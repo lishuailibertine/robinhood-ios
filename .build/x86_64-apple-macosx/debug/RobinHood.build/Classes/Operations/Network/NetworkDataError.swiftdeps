@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkBaseError"
+- "NetworkResponseError"
+provides-nominal:
+- "9RobinHood16NetworkBaseErrorO"
+- "9RobinHood20NetworkResponseErrorO"
+provides-member:
+- ["9RobinHood16NetworkBaseErrorO", ""]
+- ["9RobinHood20NetworkResponseErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Error"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "NetworkBaseError"
+- "NetworkResponseError"
+- !private "~="
+depends-member:
+- ["SQ", "=="]
+- !private ["SQ", "NetworkResponseError"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "authorizationError"]
+- ["SQ", "code"]
+- ["SQ", "domain"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "internalServerError"]
+- !private ["SQ", "invalidParameters"]
+- !private ["SQ", "resourceNotFound"]
+- !private ["SQ", "unexpectedStatusCode"]
+- ["SQ", "userInfo"]
+- ["s5ErrorP", "=="]
+- !private ["s5ErrorP", "NetworkResponseError"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "authorizationError"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "internalServerError"]
+- !private ["s5ErrorP", "invalidParameters"]
+- !private ["s5ErrorP", "resourceNotFound"]
+- !private ["s5ErrorP", "unexpectedStatusCode"]
+- ["s5ErrorP", "userInfo"]
+- ["SH", "=="]
+- !private ["SH", "NetworkResponseError"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "authorizationError"]
+- ["SH", "code"]
+- ["SH", "domain"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "internalServerError"]
+- !private ["SH", "invalidParameters"]
+- !private ["SH", "resourceNotFound"]
+- !private ["SH", "unexpectedStatusCode"]
+- ["SH", "userInfo"]
+- !private ["s6HasherV", "combine"]
+- ["9RobinHood16NetworkBaseErrorO", "=="]
+- ["9RobinHood16NetworkBaseErrorO", ""]
+- ["9RobinHood16NetworkBaseErrorO", "__derived_enum_equals"]
+- ["9RobinHood16NetworkBaseErrorO", "_code"]
+- ["9RobinHood16NetworkBaseErrorO", "_domain"]
+- ["9RobinHood16NetworkBaseErrorO", "_getEmbeddedNSError"]
+- ["9RobinHood16NetworkBaseErrorO", "_rawHashValue"]
+- ["9RobinHood16NetworkBaseErrorO", "_userInfo"]
+- ["9RobinHood16NetworkBaseErrorO", "badDeserialization"]
+- ["9RobinHood16NetworkBaseErrorO", "badSerialization"]
+- ["9RobinHood16NetworkBaseErrorO", "code"]
+- ["9RobinHood16NetworkBaseErrorO", "domain"]
+- ["9RobinHood16NetworkBaseErrorO", "hash"]
+- ["9RobinHood16NetworkBaseErrorO", "hashValue"]
+- ["9RobinHood16NetworkBaseErrorO", "invalidUrl"]
+- ["9RobinHood16NetworkBaseErrorO", "unexpectedEmptyData"]
+- ["9RobinHood16NetworkBaseErrorO", "unexpectedResponseObject"]
+- ["9RobinHood16NetworkBaseErrorO", "userInfo"]
+- ["9RobinHood20NetworkResponseErrorO", "=="]
+- ["9RobinHood20NetworkResponseErrorO", "Int"]
+- ["9RobinHood20NetworkResponseErrorO", "NetworkResponseError"]
+- ["9RobinHood20NetworkResponseErrorO", ""]
+- ["9RobinHood20NetworkResponseErrorO", "__derived_enum_equals"]
+- ["9RobinHood20NetworkResponseErrorO", "_code"]
+- ["9RobinHood20NetworkResponseErrorO", "_domain"]
+- ["9RobinHood20NetworkResponseErrorO", "_getEmbeddedNSError"]
+- ["9RobinHood20NetworkResponseErrorO", "_rawHashValue"]
+- ["9RobinHood20NetworkResponseErrorO", "_userInfo"]
+- ["9RobinHood20NetworkResponseErrorO", "authorizationError"]
+- ["9RobinHood20NetworkResponseErrorO", "code"]
+- ["9RobinHood20NetworkResponseErrorO", "createFrom"]
+- ["9RobinHood20NetworkResponseErrorO", "domain"]
+- ["9RobinHood20NetworkResponseErrorO", "hash"]
+- ["9RobinHood20NetworkResponseErrorO", "hashValue"]
+- ["9RobinHood20NetworkResponseErrorO", "internalServerError"]
+- ["9RobinHood20NetworkResponseErrorO", "invalidParameters"]
+- ["9RobinHood20NetworkResponseErrorO", "resourceNotFound"]
+- ["9RobinHood20NetworkResponseErrorO", "unexpectedStatusCode"]
+- ["9RobinHood20NetworkResponseErrorO", "userInfo"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- !private "s6HasherV"
+- "9RobinHood16NetworkBaseErrorO"
+- "9RobinHood20NetworkResponseErrorO"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "aa37e0217a5626fe8d3df3726b5997af"

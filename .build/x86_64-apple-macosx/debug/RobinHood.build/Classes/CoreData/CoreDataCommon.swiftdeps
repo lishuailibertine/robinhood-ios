@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IncompatibleModelHandlingStrategy"
+- "CoreDataPersistentSettings"
+- "CoreDataServiceStorageType"
+- "CoreDataServiceConfigurationProtocol"
+- "CoreDataContextInvocationBlock"
+- "CoreDataServiceProtocol"
+provides-nominal:
+- "9RobinHood33IncompatibleModelHandlingStrategyO"
+- "9RobinHood26CoreDataPersistentSettingsV"
+- "9RobinHood26CoreDataServiceStorageTypeO"
+- "9RobinHood36CoreDataServiceConfigurationProtocolP"
+- "9RobinHood23CoreDataServiceProtocolP"
+provides-member:
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", ""]
+- ["9RobinHood26CoreDataPersistentSettingsV", ""]
+- ["9RobinHood26CoreDataServiceStorageTypeO", ""]
+- ["9RobinHood36CoreDataServiceConfigurationProtocolP", ""]
+- ["9RobinHood23CoreDataServiceProtocolP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CoreDataContextInvocationBlock"
+- "CoreDataPersistentSettings"
+- "CoreDataServiceConfigurationProtocol"
+- "CoreDataServiceProtocol"
+- "CoreDataServiceStorageType"
+- "Error"
+- !private "FloatLiteralType"
+- "IncompatibleModelHandlingStrategy"
+- !private "IntegerLiteralType"
+- "NSManagedObjectContext"
+- "String"
+- "URL"
+- "Void"
+depends-member:
+- ["SK", ""]
+- ["Sl", ""]
+- ["SL", ""]
+- ["9RobinHood26CoreDataPersistentSettingsV", "Bool"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "IncompatibleModelHandlingStrategy"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "String"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "URL"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "databaseDirectory"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "databaseName"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "excludeFromiCloudBackup"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "incompatibleModelStrategy"]
+- ["9RobinHood26CoreDataPersistentSettingsV", "init"]
+- ["9RobinHood36CoreDataServiceConfigurationProtocolP", "CoreDataServiceStorageType"]
+- ["9RobinHood36CoreDataServiceConfigurationProtocolP", "URL"]
+- ["9RobinHood36CoreDataServiceConfigurationProtocolP", "modelURL"]
+- ["9RobinHood36CoreDataServiceConfigurationProtocolP", "storageType"]
+- ["9RobinHood23CoreDataServiceProtocolP", "CoreDataContextInvocationBlock"]
+- ["9RobinHood23CoreDataServiceProtocolP", "CoreDataServiceConfigurationProtocol"]
+- ["9RobinHood23CoreDataServiceProtocolP", "close"]
+- ["9RobinHood23CoreDataServiceProtocolP", "configuration"]
+- ["9RobinHood23CoreDataServiceProtocolP", "drop"]
+- ["9RobinHood23CoreDataServiceProtocolP", "performAsync"]
+- ["9RobinHood26CoreDataServiceStorageTypeO", "CoreDataPersistentSettings"]
+- ["9RobinHood26CoreDataServiceStorageTypeO", "inMemory"]
+- ["9RobinHood26CoreDataServiceStorageTypeO", "persistent"]
+- ["s23CustomStringConvertibleP", ""]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "ignore"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "ignore"]
+- !private ["s6HasherV", "combine"]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "=="]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", ""]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "__derived_enum_equals"]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "_rawHashValue"]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "hash"]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "hashValue"]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "ignore"]
+- ["9RobinHood33IncompatibleModelHandlingStrategyO", "removeStore"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+depends-nominal:
+- "SK"
+- "Sl"
+- "SL"
+- "9RobinHood26CoreDataPersistentSettingsV"
+- "9RobinHood36CoreDataServiceConfigurationProtocolP"
+- "9RobinHood23CoreDataServiceProtocolP"
+- "9RobinHood26CoreDataServiceStorageTypeO"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "9RobinHood33IncompatibleModelHandlingStrategyO"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f16acc6a45a2f4aec91d311a12a88d2d"

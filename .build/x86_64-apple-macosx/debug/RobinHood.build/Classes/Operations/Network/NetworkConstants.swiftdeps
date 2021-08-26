@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HttpMethod"
+- "HttpContentType"
+- "HttpHeaderKey"
+provides-nominal:
+- "9RobinHood10HttpMethodO"
+- "9RobinHood15HttpContentTypeO"
+- "9RobinHood13HttpHeaderKeyO"
+provides-member:
+- ["9RobinHood10HttpMethodO", ""]
+- ["9RobinHood15HttpContentTypeO", ""]
+- ["9RobinHood13HttpHeaderKeyO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- !private "FloatLiteralType"
+- "HttpContentType"
+- "HttpHeaderKey"
+- "HttpMethod"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["9RobinHood15HttpContentTypeO", "=="]
+- ["9RobinHood15HttpContentTypeO", "Default_RawValue"]
+- ["9RobinHood15HttpContentTypeO", "RawValue"]
+- ["9RobinHood15HttpContentTypeO", ""]
+- ["9RobinHood15HttpContentTypeO", "_Default_RawValue"]
+- !private ["9RobinHood15HttpContentTypeO", "_findStringSwitchCase"]
+- ["9RobinHood15HttpContentTypeO", "_rawHashValue"]
+- !private ["9RobinHood15HttpContentTypeO", "findStringSwitchCase"]
+- ["9RobinHood15HttpContentTypeO", "hash"]
+- ["9RobinHood15HttpContentTypeO", "hashValue"]
+- ["9RobinHood15HttpContentTypeO", "init"]
+- ["9RobinHood15HttpContentTypeO", "json"]
+- ["9RobinHood15HttpContentTypeO", "rawValue"]
+- ["9RobinHood13HttpHeaderKeyO", "=="]
+- ["9RobinHood13HttpHeaderKeyO", "Default_RawValue"]
+- ["9RobinHood13HttpHeaderKeyO", "RawValue"]
+- ["9RobinHood13HttpHeaderKeyO", ""]
+- ["9RobinHood13HttpHeaderKeyO", "_Default_RawValue"]
+- !private ["9RobinHood13HttpHeaderKeyO", "_findStringSwitchCase"]
+- ["9RobinHood13HttpHeaderKeyO", "_rawHashValue"]
+- ["9RobinHood13HttpHeaderKeyO", "authorization"]
+- ["9RobinHood13HttpHeaderKeyO", "contentType"]
+- !private ["9RobinHood13HttpHeaderKeyO", "findStringSwitchCase"]
+- ["9RobinHood13HttpHeaderKeyO", "hash"]
+- ["9RobinHood13HttpHeaderKeyO", "hashValue"]
+- ["9RobinHood13HttpHeaderKeyO", "init"]
+- ["9RobinHood13HttpHeaderKeyO", "rawValue"]
+- ["9RobinHood10HttpMethodO", "=="]
+- ["9RobinHood10HttpMethodO", "Default_RawValue"]
+- ["9RobinHood10HttpMethodO", "RawValue"]
+- ["9RobinHood10HttpMethodO", ""]
+- ["9RobinHood10HttpMethodO", "_Default_RawValue"]
+- !private ["9RobinHood10HttpMethodO", "_findStringSwitchCase"]
+- ["9RobinHood10HttpMethodO", "_rawHashValue"]
+- ["9RobinHood10HttpMethodO", "delete"]
+- !private ["9RobinHood10HttpMethodO", "findStringSwitchCase"]
+- ["9RobinHood10HttpMethodO", "get"]
+- ["9RobinHood10HttpMethodO", "hash"]
+- ["9RobinHood10HttpMethodO", "hashValue"]
+- ["9RobinHood10HttpMethodO", "init"]
+- ["9RobinHood10HttpMethodO", "post"]
+- ["9RobinHood10HttpMethodO", "put"]
+- ["9RobinHood10HttpMethodO", "rawValue"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "9RobinHood15HttpContentTypeO"
+- "9RobinHood13HttpHeaderKeyO"
+- "9RobinHood10HttpMethodO"
+- "SY"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f8b07eb7055bbc83d24b0167df669f48"

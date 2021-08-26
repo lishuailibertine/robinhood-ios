@@ -1,0 +1,64 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataProviderObserver"
+- "DataProviderPendingObserver"
+provides-nominal:
+- "9RobinHood20DataProviderObserverV"
+- "9RobinHood27DataProviderPendingObserverV"
+provides-member:
+- ["9RobinHood20DataProviderObserverV", ""]
+- ["9RobinHood27DataProviderPendingObserverV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BaseOperation"
+- "DataProviderChange"
+- "DataProviderObserver"
+- "DataProviderPendingObserver"
+- "DispatchQueue"
+- "Error"
+- "P"
+- "T"
+- "Void"
+depends-member:
+- ["9RobinHood20DataProviderObserverV", "AnyObject"]
+- ["9RobinHood20DataProviderObserverV", "DataProviderChange"]
+- ["9RobinHood20DataProviderObserverV", "DispatchQueue"]
+- ["9RobinHood20DataProviderObserverV", "Error"]
+- ["9RobinHood20DataProviderObserverV", "Void"]
+- ["9RobinHood20DataProviderObserverV", "failureBlock"]
+- ["9RobinHood20DataProviderObserverV", "init"]
+- ["9RobinHood20DataProviderObserverV", "observer"]
+- ["9RobinHood20DataProviderObserverV", "options"]
+- ["9RobinHood20DataProviderObserverV", "queue"]
+- ["9RobinHood20DataProviderObserverV", "updateBlock"]
+- ["9RobinHood27DataProviderPendingObserverV", "AnyObject"]
+- ["9RobinHood27DataProviderPendingObserverV", "BaseOperation"]
+- ["9RobinHood27DataProviderPendingObserverV", "init"]
+- ["9RobinHood27DataProviderPendingObserverV", "observer"]
+- ["9RobinHood27DataProviderPendingObserverV", "operation"]
+depends-nominal:
+- "9RobinHood20DataProviderObserverV"
+- "9RobinHood27DataProviderPendingObserverV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bf87707a3d4f0f2d06e8e57af86d68e7"

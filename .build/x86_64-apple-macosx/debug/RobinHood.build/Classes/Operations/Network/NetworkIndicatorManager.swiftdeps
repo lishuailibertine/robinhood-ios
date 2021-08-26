@@ -1,0 +1,75 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkIndicatorManagerProtocol"
+- "NetworkIndicatorManager"
+provides-nominal:
+- "9RobinHood31NetworkIndicatorManagerProtocolP"
+- "9RobinHood23NetworkIndicatorManagerC"
+provides-member:
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", ""]
+- ["9RobinHood23NetworkIndicatorManagerC", ""]
+provides-dynamic-lookup:
+- "decrement"
+- "increment"
+- "managerQueue"
+- "numberOfOperations"
+- "shared"
+depends-top-level:
+- "DispatchQueue"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NetworkIndicatorManager"
+- "NetworkIndicatorManagerProtocol"
+- "UUID"
+- !private "managerQueue"
+depends-member:
+- ["9RobinHood23NetworkIndicatorManagerC", "DispatchQueue"]
+- ["9RobinHood23NetworkIndicatorManagerC", "NetworkIndicatorManager"]
+- ["9RobinHood23NetworkIndicatorManagerC", "UUID"]
+- ["9RobinHood23NetworkIndicatorManagerC", ""]
+- ["9RobinHood23NetworkIndicatorManagerC", "decrement"]
+- ["9RobinHood23NetworkIndicatorManagerC", "deinit"]
+- ["9RobinHood23NetworkIndicatorManagerC", "increment"]
+- ["9RobinHood23NetworkIndicatorManagerC", "init"]
+- ["9RobinHood23NetworkIndicatorManagerC", "managerQueue"]
+- ["9RobinHood23NetworkIndicatorManagerC", "numberOfOperations"]
+- ["9RobinHood23NetworkIndicatorManagerC", "shared"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "DispatchQueue"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "NetworkIndicatorManager"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "UUID"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", ""]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "decrement"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "increment"]
+- ["9RobinHood31NetworkIndicatorManagerProtocolP", "init"]
+- !private ["9RobinHood31NetworkIndicatorManagerProtocolP", "managerQueue"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "9RobinHood23NetworkIndicatorManagerC"
+- "9RobinHood31NetworkIndicatorManagerProtocolP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6d8e397ec7f36de658a97779c3dc7ea3"

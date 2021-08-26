@@ -1,0 +1,81 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DataProviderProtocol"
+- "DataProviderSourceProtocol"
+provides-nominal:
+- "9RobinHood20DataProviderProtocolP"
+- "9RobinHood26DataProviderSourceProtocolP"
+provides-member:
+- ["9RobinHood20DataProviderProtocolP", ""]
+- ["9RobinHood26DataProviderSourceProtocolP", ""]
+- ["9RobinHood20DataProviderProtocolP", "addObserver"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "CompoundOperationWrapper"
+- "DataProviderChange"
+- "DataProviderObserverOptions"
+- "DataProviderProtocol"
+- "DataProviderSourceProtocol"
+- "DispatchQueue"
+- "Error"
+- "Identifiable"
+- "Model"
+- "OperationQueue"
+- "Result"
+- "String"
+- "UInt"
+- "Void"
+- !private "addObserver"
+depends-member:
+- !private ["9RobinHood27DataProviderObserverOptionsV", "init"]
+- ["9RobinHood20DataProviderProtocolP", "AnyObject"]
+- ["9RobinHood20DataProviderProtocolP", "CompoundOperationWrapper"]
+- ["9RobinHood20DataProviderProtocolP", "DataProviderChange"]
+- ["9RobinHood20DataProviderProtocolP", "DataProviderObserverOptions"]
+- ["9RobinHood20DataProviderProtocolP", "DispatchQueue"]
+- ["9RobinHood20DataProviderProtocolP", "Error"]
+- ["9RobinHood20DataProviderProtocolP", "Identifiable"]
+- ["9RobinHood20DataProviderProtocolP", "Model"]
+- ["9RobinHood20DataProviderProtocolP", "OperationQueue"]
+- ["9RobinHood20DataProviderProtocolP", "Result"]
+- ["9RobinHood20DataProviderProtocolP", "String"]
+- ["9RobinHood20DataProviderProtocolP", "UInt"]
+- ["9RobinHood20DataProviderProtocolP", "Void"]
+- ["9RobinHood20DataProviderProtocolP", ""]
+- ["9RobinHood20DataProviderProtocolP", "addObserver"]
+- ["9RobinHood20DataProviderProtocolP", "executionQueue"]
+- ["9RobinHood20DataProviderProtocolP", "fetch"]
+- ["9RobinHood20DataProviderProtocolP", "refresh"]
+- ["9RobinHood20DataProviderProtocolP", "removeObserver"]
+- ["9RobinHood26DataProviderSourceProtocolP", "CompoundOperationWrapper"]
+- ["9RobinHood26DataProviderSourceProtocolP", "Identifiable"]
+- ["9RobinHood26DataProviderSourceProtocolP", "Model"]
+- ["9RobinHood26DataProviderSourceProtocolP", "String"]
+- ["9RobinHood26DataProviderSourceProtocolP", "UInt"]
+- ["9RobinHood26DataProviderSourceProtocolP", "fetchOperation"]
+depends-nominal:
+- !private "9RobinHood27DataProviderObserverOptionsV"
+- "9RobinHood20DataProviderProtocolP"
+- "9RobinHood26DataProviderSourceProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/lishuai/Documents/GitHub/robinhood-ios/.build/x86_64-apple-macosx/debug/RobinHood.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7590b6a9e56e2e5a4defbbc493a01ea3"

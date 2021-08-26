@@ -1,0 +1,46 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/.build\/x86_64-apple-macosx\/debug\/RobinHoodPackageTests.xctest\/Contents\/MacOS\/RobinHoodPackageTests",
+      "packageName" : "RobinHood",
+      "productName" : "RobinHoodPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/.build\/x86_64-apple-macosx\/debug\/RobinHood_RobinHoodTests.bundle\/Entities.xcdatamodeld" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/Tests\/RobinHoodTests\/Helpers\/CoreData\/Model\/Entities.xcdatamodeld"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/.build\/x86_64-apple-macosx\/debug\/RobinHood_RobinHoodTests.bundle\/Entities.xcdatamodeld"
+        }
+      ]
+    },
+    "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/.build\/x86_64-apple-macosx\/debug\/RobinHood_RobinHoodTests.bundle\/IEntities.xcdatamodeld" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/Tests\/RobinHoodTests\/Helpers\/CoreData\/Model\/IEntities.xcdatamodeld"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "\/Users\/lishuai\/Documents\/GitHub\/robinhood-ios\/.build\/x86_64-apple-macosx\/debug\/RobinHood_RobinHoodTests.bundle\/IEntities.xcdatamodeld"
+        }
+      ]
+    }
+  },
+  "swiftTargetMap" : {
+    "C.RobinHood-debug.module" : "RobinHood",
+    "C.RobinHoodTests-debug.module" : "RobinHoodTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
